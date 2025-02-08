@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.quicksand-font{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+   
+    font-style: normal;
+  }
+  .display-flex{
+    display: flex;
+  }
+/*About Navbar*/
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 140px;
+  
+      }
+
+
+    .nav-items{
+        list-style: none;
+        margin-right: 30px;
+    gap: 32px;}
+
+        .nav-link{
+            text-decoration: none;
+            font-weight: 500;}  
+     header>h3{
+      font-weight: bold;
+     }
+           
+    /*nav links*/
+  .text-home{
+    color: #FEA301;
+  }
+  .text-about{
+    color: #01ACFD;
+  }
+  .text-facilities{
+    color: #05D4DF;
+  }
+  .text-admission{
+    color: #5D58EF;
+  }
+
+  .btn-primary{
+    background-color: #FEA301;
+    color: white;
+    border:none;
+    border-radius: 12px;
+    padding: 10px 60px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/*Towards Vision Part*/
+
+.vision{
+align-items: center;
+gap: 50px;
+margin: 20px 140px;
+width: 1158px 576px;
+    
+}
+.margin-bottom{
+    margin-bottom: 24px;
+}
+.vision-headline{
+font-weight: 500;
+font-size: 56px;
+}
+.empowering{
+    color: #FEA301;
+}
+.towards-vision{
+    color: rgba(1, 172, 253, 1);
+}
+
+.vision-description{
+font-size: 20px;
+font-weight: 400;
+}
+ .vision-image{
+    width: 500px;
+ }
+.btn-vision{
+    background-color: #111111;
+    color: white;
+    border:none;
+    border-radius: 12px;
+    padding: 10px 60px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/*About Curriculum*/
+
+
+
+.background{
+  margin-top: 60px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 46px;
+}
+.boxes{
+  display: flex;
+margin: 20px 140px;
+gap: 28px;
+margin-top: 80px;
+text-align: center;
+position: absolute;
+}
+
+.first-box{
+  background-color: rgba(222, 245, 255, 1);
+  padding: 53px 40px;
+  border-radius: 18.86px;
+}
+
+.first-info{
+  color: #64C8FF;
+}
+
+
+.second-box{
+background-color: rgba(255, 244, 220, 1);
+padding: 53px 40px;
+border-radius: 18.86px;
+}
+
+.second-info{
+  color: #F0AA00;
+}
+
+.third-box{
+background-color: rgba(238, 225, 255, 1);
+padding: 53px 40px;
+border-radius: 18.86px;
+}
+
+.third-info{
+  color: #8700FF;
+}
+.icons{
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+.icon1{
+  height: 60px;
+  width: 60px;
+}
+.icon2{
+  height: 60px;
+  width: 60px;
+}
+
+.overall{
+  width: 100%;
+ }
